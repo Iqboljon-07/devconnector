@@ -7,7 +7,6 @@ import React from "react";
 function Login() {
   //   console.log(baseUrl, "tttttttttttttttttttt");
   const route = useRouter();
-
   const onSubmits = async (e) => {
     e.preventDefault();
     let email = e.target[0].value;
